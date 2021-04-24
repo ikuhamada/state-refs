@@ -63,15 +63,15 @@ abstract = "We have studied the effect of Zn on hydrogenation of formate to diox
 }
 
 @article{Wu2012,
-author = {Wu,Jun  and Gygi,Fran{\c{c}}ois },
-title = {A simplified implementation of van der Waals density functionals for first-principles molecular dynamics applications},
-journal = {The Journal of Chemical Physics},
-volume = {136},
-number = {22},
-pages = {224107},
-year = {2012},
-doi = {10.1063/1.4727850},
-URL = {https://doi.org/10.1063/1.4727850}
+  author = {Wu,Jun  and Gygi,Fran{\c{c}}ois },
+  title = {A simplified implementation of van der Waals density functionals for first-principles molecular dynamics applications},
+  journal = {The Journal of Chemical Physics},
+  volume = {136},
+  number = {22},
+  pages = {224107},
+  year = {2012},
+  doi = {10.1063/1.4727850},
+  URL = {https://doi.org/10.1063/1.4727850}
 }
 
 @article{Hamamoto2016,
@@ -87,6 +87,22 @@ URL = {https://doi.org/10.1063/1.4727850}
   publisher = {American Physical Society},
   doi = {10.1103/PhysRevB.93.245440},
   url = {https://link.aps.org/doi/10.1103/PhysRevB.93.245440}
+}
+
+% Semiempirical dispersion correction (DFT-D2)
+
+@article{Grimme2006,
+  author = {Grimme, Stefan},
+  title = {Semiempirical GGA-type density functional constructed with a long-range dispersion correction},
+  journal = {Journal of Computational Chemistry},
+  volume = {27},
+  number = {15},
+  pages = {1787-1799},
+  keywords = {density functional theory, generalized gradient approximation, van der Waals interactions, thermochemistry},
+  doi = {https://doi.org/10.1002/jcc.20495},
+  url = {https://onlinelibrary.wiley.com/doi/abs/10.1002/jcc.20495},
+  eprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1002/jcc.20495},
+  year = {2006}
 }
 
 % Effective screening medium method
@@ -221,7 +237,7 @@ URL = {https://doi.org/10.1063/1.4727850}
 
 @article{Kresse1996,
   title = {Efficient iterative schemes for ab initio total-energy calculations using a plane-wave basis set},
-  author = {Kresse, G. and Furthm\"uller, J.},
+  author = {Kresse, G. and Furthm{\"u}ller, J.},
   journal = {Phys. Rev. B},
   volume = {54},
   issue = {16},
@@ -244,8 +260,7 @@ year = "1996",
 issn = "0927-0256",
 doi = "https://doi.org/10.1016/0927-0256(96)00008-0",
 url = "http://www.sciencedirect.com/science/article/pii/0927025696000080",
-author = "G. Kresse and J. Furthmüller",
-abstract = "We present a detailed description and comparison of algorithms for performing ab-initio quantum-mechanical calculations using pseudopotentials and a plane-wave basis set. We will discuss: (a) partial occupancies within the framework of the linear tetrahedron method and the finite temperature density-functional theory, (b) iterative methods for the diagonalization of the Kohn-Sham Hamiltonian and a discussion of an efficient iterative method based on the ideas of Pulay's residual minimization, which is close to an order Natoms2 scaling even for relatively large systems, (c) efficient Broyden-like and Pulay-like mixing methods for the charge density including a new special‘preconditioning optimized for a plane-wave basis set, (d) conjugate gradient methods for minimizing the electronic free energy with respect to all degrees of freedom simultaneously. We have implemented these algorithms within a powerful package called VAMP (Vienna ab-initio molecular-dynamics package). The program and the techniques have been used successfully for a large number of different systems (liquid and amorphous semiconductors, liquid simple and transition metals, metallic and semi-conducting surfaces, phonons in simple metals, transition metals and semiconductors) and turned out to be very reliable."
+author = "G. Kresse and J. Furthm{\"u}ller"
 }
 
 @article{Davidson1975,
@@ -272,8 +287,7 @@ number = {9},
 pages = {1343--1359},
 author = {D M Wood and A Zunger},
 title = {A new method for diagonalising large matrices},
-journal = {Journal of Physics A: Mathematical and General},
-abstract = {The structure and implementation of a new general iterative method for diagonalising large matrices (the 'residual minimisation/direct inversion in the iterative subspace' method of Bendt and Zunger) are described and contrasted with other more commonly used iterative techniques. The method requires the direct diagonalisation of only a small submatrix, does not require the storage of the large matrix and provides eigensolutions to within a prescribed precision in a rapidly convergent iterative procedure. Numerical results for two rather different matrices (a real 50*50 non-diagonally dominant matrix and a complex Hermitian 181*181 matrix corresponding to the pseudopotential band structure of a semiconductor in a plane wave basis set) are used to compare the new method with the competing methods. the new method converges quickly and should be the most efficient for very large matrices in terms both of computation time and central storage requirements; it is quite insensitive to the properties of the matrices used. This technique makes possible efficient solution of a variety of quantum mechanical matrix problems where large basis set expansions are required.}
+journal = {Journal of Physics A: Mathematical and General}
 }
 
 % K-point sampling
@@ -413,6 +427,20 @@ abstract = {The structure and implementation of a new general iterative method f
   publisher = {American Physical Society},
   doi = {10.1103/PhysRevB.95.039905},
   url = {https://link.aps.org/doi/10.1103/PhysRevB.95.039905}
+}
+
+@article{Berland2015,
+  doi = {10.1088/0034-4885/78/6/066501},
+  url = {https://doi.org/10.1088/0034-4885/78/6/066501},
+  year = {2015},
+  month = {may},
+  publisher = {{IOP} Publishing},
+  volume = {78},
+  number = {6},
+  pages = {066501},
+  author = {Kristian Berland and Valentino R Cooper and Kyuho Lee and Elsebeth Schr{\"o}der and T Thonhauser and Per Hyldgaard and Bengt I Lundqvist},
+  title = {van der Waals forces in density functional theory: a review of the {vdW}-{DF} method},
+  journal = {Rep. on Prog. Phys.}
 }
 
 @article{Sawada1997,
